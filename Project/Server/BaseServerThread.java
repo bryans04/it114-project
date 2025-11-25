@@ -7,14 +7,9 @@ import java.net.Socket;
 
 import Project.Common.Payload;
 import Project.Common.User;
-import Project.Common.Constants;
-import Project.Exceptions.RoomNotFoundException;
+import Project.Common.LoggerUtil;
 
-
-/**
- * Base class the handles the underlying connection between Client and
- * Server-side
- */
+// bs768, 11/24/2025, BaseServerThread abstract class handling underlying client-server connection
 public abstract class BaseServerThread extends Thread {
 
     protected boolean isRunning = false; // control variable to stop this thread
@@ -42,7 +37,7 @@ public abstract class BaseServerThread extends Thread {
             throw new NullPointerException("Room argument can't be null");
         }
         if (room == currentRoom) {
-            System.out.println(
+            LoggerUtil.INSTANCE.info(
                     String.format("ServerThread set to the same room [%s], was this intentional?", room.getName()));
         }
         currentRoom = room;
@@ -83,6 +78,30 @@ public abstract class BaseServerThread extends Thread {
 
     public String getDisplayName() {
         return this.user.getDisplayName();
+    }
+
+    public int getPoints() {
+        return this.user.getPoints();
+    }
+
+    public void setPoints(int points) {
+        this.user.setPoints(points);
+    }
+
+    public String getChoice() {
+        return this.user.getChoice();
+    }
+
+    public void setChoice(String choice) {
+        this.user.setChoice(choice);
+    }
+
+    public boolean isEliminated() {
+        return this.user.isEliminated();
+    }
+
+    public void setEliminated(boolean isEliminated) {
+        this.user.setEliminated(isEliminated);
     }
 
     /**
@@ -132,7 +151,7 @@ public abstract class BaseServerThread extends Thread {
     /**
      * Terminates the server-side of the connection
      */
-    //bs768,11/4,code that disconnects a client
+    // bs768,11/4,code that disconnects a client
     protected void disconnect() {
         if (!isRunning) {
             // prevent multiple triggers if this gets called consecutively
@@ -178,7 +197,7 @@ public abstract class BaseServerThread extends Thread {
                         throw new IOException("Connection interrupted"); // Specific exception for a clean break
                     }
                 } catch (ClassCastException | ClassNotFoundException cce) {
-                    System.err.println("Error reading object as specified type: " + cce.getMessage());
+                    LoggerUtil.INSTANCE.severe("Error reading object as specified type: " + cce.getMessage());
                     cce.printStackTrace();
                 } catch (IOException e) {
                     if (Thread.currentThread().isInterrupted()) {
@@ -197,7 +216,7 @@ public abstract class BaseServerThread extends Thread {
             info("My Client disconnected");
         } finally {
             if (currentRoom != null) {
-                currentRoom.handleDisconnect(this);
+                currentRoom.handleDisconnect((ServerThread) this);
             }
             isRunning = false;
             info("Exited thread loop. Cleaning up connection");

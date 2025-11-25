@@ -1,18 +1,21 @@
 package Project.Server;
 
 import java.net.Socket;
+import java.util.List;
 import java.util.Objects;
 import java.util.function.Consumer;
 import Project.Common.TextFX.Color;
-import Project.Common.TextFX;
 import Project.Common.ConnectionPayload;
-import Project.Common.PayloadType;
+import Project.Common.Constants;
+import Project.Common.LoggerUtil;
 import Project.Common.Payload;
+import Project.Common.PayloadType;
+import Project.Common.PointsPayload;
 import Project.Common.RoomAction;
+import Project.Common.RoomResultPayload;
+import Project.Common.TextFX;
 
-/**
- * A server-side representation of a single client
- */
+// bs768, 11/24/2025, ServerThread class representing a connected client on the server
 public class ServerThread extends BaseServerThread {
     private Consumer<ServerThread> onInitializationComplete; // callback to inform when this object is ready
 
@@ -22,8 +25,10 @@ public class ServerThread extends BaseServerThread {
      * 
      * @param message
      */
+    @Override
     protected void info(String message) {
-        System.out.println(TextFX.colorize(String.format("Thread[%s]: %s", this.getClientId(), message), Color.CYAN));
+        LoggerUtil.INSTANCE
+                .info(TextFX.colorize(String.format("Thread[%s]: %s", this.getClientId(), message), Color.CYAN));
     }
 
     /**
@@ -47,6 +52,12 @@ public class ServerThread extends BaseServerThread {
     }
 
     // Start Send*() Methods
+    public boolean sendRooms(List<String> rooms) {
+        RoomResultPayload rrp = new RoomResultPayload();
+        rrp.setRooms(rooms);
+        return sendToClient(rrp);
+    }
+
     protected boolean sendDisconnect(long clientId) {
         Payload payload = new Payload();
         payload.setClientId(clientId);
@@ -55,7 +66,7 @@ public class ServerThread extends BaseServerThread {
     }
 
     protected boolean sendResetUserList() {
-        return sendClientInfo(Project.Common.Constants.DEFAULT_CLIENT_ID, null, RoomAction.JOIN);
+        return sendClientInfo(Constants.DEFAULT_CLIENT_ID, null, RoomAction.JOIN);
     }
 
     /**
@@ -122,11 +133,24 @@ public class ServerThread extends BaseServerThread {
      * @param message
      * @return true for successful send
      */
+    //bs768, 11/24/2025, sendMessage method for ServerThread
     protected boolean sendMessage(long clientId, String message) {
         Payload payload = new Payload();
         payload.setPayloadType(PayloadType.MESSAGE);
         payload.setMessage(message);
         payload.setClientId(clientId);
+        return sendToClient(payload);
+    }
+
+    /**
+     * Sends a points update to the client
+     * 
+     * @param clientId the client whose points are being updated
+     * @param points   the updated points value
+     * @return true for successful send
+     */
+    protected boolean sendPointsUpdate(long clientId, int points) {
+        PointsPayload payload = new PointsPayload(clientId, points);
         return sendToClient(payload);
     }
 
@@ -157,8 +181,23 @@ public class ServerThread extends BaseServerThread {
             case ROOM_LEAVE:
                 currentRoom.handleJoinRoom(this, Room.LOBBY);
                 break;
+            case ROOM_LIST:
+                currentRoom.handleListRooms(this, incoming.getMessage());
+                break;
+            case POINTS_UPDATE:
+                if (incoming instanceof PointsPayload) {
+                    PointsPayload pp = (PointsPayload) incoming;
+                    currentRoom.handlePointsUpdate(this, pp.getPoints());
+                }
+                break;
+            case PLAYER_PICK:
+                currentRoom.handlePick(this, incoming.getMessage());
+                break;
+            case READY_CHECK:
+                currentRoom.handleReadyCheck(this);
+                break;
             default:
-                System.out.println(TextFX.colorize("Unknown payload type received", Color.RED));
+                LoggerUtil.INSTANCE.warning(TextFX.colorize("Unknown payload type received", Color.RED));
                 break;
         }
     }
