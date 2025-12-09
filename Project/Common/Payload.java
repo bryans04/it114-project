@@ -49,8 +49,9 @@ public class Payload implements Serializable {
         this.message = message;
     }
 
+    //bs768, 11/24/2025, toString method for Payload
     @Override
     public String toString() {
         return String.format("Payload[%s] Client Id [%s] Message: [%s]", getPayloadType(), getClientId(), getMessage());
     }
-}
+}   

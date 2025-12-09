@@ -65,8 +65,8 @@ public abstract class TextFX {
 
     public static void main(String[] args) {
         // Example usage:
-        System.out.println(TextFX.colorize("Hello, world!", Color.RED));
-        System.out.println(TextFX.colorize("This is some blue text.", Color.BLUE));
-        System.out.println(TextFX.colorize("And this is green!", Color.GREEN));
+        LoggerUtil.INSTANCE.info(TextFX.colorize("Hello, world!", Color.RED));
+        LoggerUtil.INSTANCE.info(TextFX.colorize("This is some blue text.", Color.BLUE));
+        LoggerUtil.INSTANCE.info(TextFX.colorize("And this is green!", Color.GREEN));
     }
 }
