@@ -1,0 +1,4071 @@
+Dec 10, 2025 11:37:32 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 11:37:41 AM Project.Common.LoggerUtil fine
+FINE: Current View: USER_INFO
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Chosen username: Bryan
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:37:49 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#1
+Dec 10, 2025 11:38:08 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:38:08 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:38:08 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:38:08 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Alex#2
+Dec 10, 2025 11:38:08 AM Project.Common.LoggerUtil info
+INFO: [0;34mAlex#2 joined the room[0m
+Dec 10, 2025 11:38:08 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:40:04 AM Project.Common.LoggerUtil warning
+WARNING: [0;31mThis command requires a room name as an argument[0m
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined Test[0m
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=Test, isJoin=true, isQuiet=false
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#1
+Dec 10, 2025 11:40:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:40:26 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=Test, isJoin=true, isQuiet=false
+Dec 10, 2025 11:40:26 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:40:26 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:40:26 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Alex#2
+Dec 10, 2025 11:40:26 AM Project.Common.LoggerUtil info
+INFO: [0;34mAlex#2 joined the room[0m
+Dec 10, 2025 11:40:26 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:40:34 AM Project.Common.LoggerUtil info
+INFO: [0;34mready[0m
+Dec 10, 2025 11:40:34 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:40:50 AM Project.Common.LoggerUtil info
+INFO: [0;34m/gamemode[0m
+Dec 10, 2025 11:40:50 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:43:32 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou must be in a GameRoom to do the ready check[0m
+Dec 10, 2025 11:43:32 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=Test, isJoin=false, isQuiet=false
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: [0;33mTest[0m
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:43:37 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#1
+Dec 10, 2025 11:44:15 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 11:44:20 AM Project.Common.LoggerUtil fine
+FINE: Current View: USER_INFO
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Chosen username: Alex
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Alex#1
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:44:24 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 10, 2025 11:48:14 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 11:48:47 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:47 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:51 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:51 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:53 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:53 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:53 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:53 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:53 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:53 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:56 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:56 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:56 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:56 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:48:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CONNECT
+Dec 10, 2025 11:50:45 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:50:51 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Erratic#1
+Dec 10, 2025 11:51:11 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:51:11 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:51:11 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:51:11 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: RainbowDash#2
+Dec 10, 2025 11:51:11 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 joined the room[0m
+Dec 10, 2025 11:51:11 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=true, isQuiet=false
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Erratic#1
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:52:18 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 10, 2025 11:52:43 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=true, isQuiet=false
+Dec 10, 2025 11:52:43 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:52:43 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:52:43 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: RainbowDash#2
+Dec 10, 2025 11:52:43 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 joined the room[0m
+Dec 10, 2025 11:52:43 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:52:53 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 11:52:53 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:52:54 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:54 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 11:53:23 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 10, 2025 11:53:23 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 10, 2025 11:53:23 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's RainbowDash#2's turn[0m
+Dec 10, 2025 11:53:29 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:48 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 11:53:53 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:53:56 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:57 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:57 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:58 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:58 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:58 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:58 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:53:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 gained a point[0m
+Dec 10, 2025 11:53:59 AM Project.Common.LoggerUtil info
+INFO: Erratic#1 took their turn
+Dec 10, 2025 11:53:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 10, 2025 11:53:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's RainbowDash#2's turn[0m
+Dec 10, 2025 11:53:59 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:54:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's not your turn[0m
+Dec 10, 2025 11:54:02 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:54:14 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 didn't gain a point[0m
+Dec 10, 2025 11:54:14 AM Project.Common.LoggerUtil info
+INFO: RainbowDash#2 took their turn
+Dec 10, 2025 11:54:14 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:54:21 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 10, 2025 11:54:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 didn't gain a point[0m
+Dec 10, 2025 11:54:24 AM Project.Common.LoggerUtil info
+INFO: Erratic#1 took their turn
+Dec 10, 2025 11:54:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 10, 2025 11:54:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's RainbowDash#2's turn[0m
+Dec 10, 2025 11:54:30 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 didn't gain a point[0m
+Dec 10, 2025 11:54:30 AM Project.Common.LoggerUtil info
+INFO: RainbowDash#2 took their turn
+Dec 10, 2025 11:54:30 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:54:32 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:54:33 AM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 didn't gain a point[0m
+Dec 10, 2025 11:54:33 AM Project.Common.LoggerUtil info
+INFO: Erratic#1 took their turn
+Dec 10, 2025 11:54:33 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:54:33 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:55:16 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:55:16 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 11:55:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:55:24 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 11:55:29 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:55:29 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 11:55:30 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:55:30 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 11:55:46 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 10, 2025 11:55:46 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 10, 2025 11:55:46 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's RainbowDash#2's turn[0m
+Dec 10, 2025 11:55:52 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 10, 2025 11:55:57 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 didn't gain a point[0m
+Dec 10, 2025 11:55:57 AM Project.Common.LoggerUtil info
+INFO: RainbowDash#2 took their turn
+Dec 10, 2025 11:55:57 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:56:01 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 10, 2025 11:56:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 didn't gain a point[0m
+Dec 10, 2025 11:56:02 AM Project.Common.LoggerUtil info
+INFO: Erratic#1 took their turn
+Dec 10, 2025 11:56:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 10, 2025 11:56:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's RainbowDash#2's turn[0m
+Dec 10, 2025 11:56:10 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 gained a point[0m
+Dec 10, 2025 11:56:10 AM Project.Common.LoggerUtil info
+INFO: RainbowDash#2 took their turn
+Dec 10, 2025 11:56:10 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:56:10 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:56:18 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 11:56:20 AM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 gained a point[0m
+Dec 10, 2025 11:56:20 AM Project.Common.LoggerUtil info
+INFO: Erratic#1 took their turn
+Dec 10, 2025 11:56:20 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 10, 2025 11:56:20 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's RainbowDash#2's turn[0m
+Dec 10, 2025 11:56:20 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:56:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mRainbowDash#2 didn't gain a point[0m
+Dec 10, 2025 11:56:29 AM Project.Common.LoggerUtil info
+INFO: RainbowDash#2 took their turn
+Dec 10, 2025 11:56:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:56:33 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 11:56:34 AM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 didn't gain a point[0m
+Dec 10, 2025 11:56:34 AM Project.Common.LoggerUtil info
+INFO: Erratic#1 took their turn
+Dec 10, 2025 11:56:34 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:56:34 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 12:02:02 PM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 10, 2025 12:02:02 PM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 10, 2025 12:02:02 PM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 10, 2025 12:02:02 PM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 10, 2025 12:02:02 PM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 10, 2025 12:02:02 PM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 10, 2025 12:03:38 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 12:03:52 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Erratic#1
+Dec 10, 2025 12:03:57 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 12:03:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:03:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:03:57 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Dxtr#2
+Dec 10, 2025 12:03:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mDxtr#2 joined the room[0m
+Dec 10, 2025 12:03:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined Test1[0m
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=Test1, isJoin=true, isQuiet=false
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 12:04:07 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Erratic#1
+Dec 10, 2025 12:04:08 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 12:04:08 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 12:04:08 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 10, 2025 12:04:17 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=Test1, isJoin=true, isQuiet=false
+Dec 10, 2025 12:04:17 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:04:17 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:04:17 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Dxtr#2
+Dec 10, 2025 12:04:17 PM Project.Common.LoggerUtil info
+INFO: [0;34mDxtr#2 joined the room[0m
+Dec 10, 2025 12:04:17 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:04:19 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:04:19 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 12:04:21 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:04:21 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 12:04:49 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 10, 2025 12:04:49 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 10, 2025 12:04:49 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 12:04:56 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 12:04:56 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked r[0m
+Dec 10, 2025 12:05:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mDxtr#2 picked p[0m
+Dec 10, 2025 12:05:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 10, 2025 12:05:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Dxtr#2's turn[0m
+Dec 10, 2025 12:05:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mDxtr#2 picked p[0m
+Dec 10, 2025 12:05:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 10, 2025 12:05:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 12:05:21 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 12:05:21 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked r[0m
+Dec 10, 2025 12:05:21 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 12:05:21 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 12:05:29 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:05:29 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 12:05:33 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:05:33 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 12:06:17 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 12:06:17 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:06:18 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:06:18 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 12:06:24 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:06:24 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 12:06:24 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:06:24 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 12:06:47 PM Project.Common.LoggerUtil info
+INFO: [0;34mHello[0m
+Dec 10, 2025 12:06:47 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:18:44 PM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 10, 2025 12:18:44 PM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 10, 2025 12:18:44 PM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 10, 2025 12:18:44 PM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 10, 2025 12:18:44 PM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 10, 2025 12:18:44 PM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 10, 2025 12:18:51 PM Project.Common.LoggerUtil warning
+WARNING: Not connected to server (hint: type `/connect host:port` without the quotes and replace host/port with the necessary info)
+Dec 10, 2025 12:19:58 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 12:20:05 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: erratic#1
+Dec 10, 2025 12:20:11 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 12:20:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:20:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:20:11 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: orkzi#2
+Dec 10, 2025 12:20:11 PM Project.Common.LoggerUtil info
+INFO: [0;34morkzi#2 joined the room[0m
+Dec 10, 2025 12:20:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil info
+INFO: [0;34morkzi#2 left the room[0m
+Dec 10, 2025 12:20:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=true, isQuiet=true
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=true, isQuiet=false
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: orkzi#2
+Dec 10, 2025 12:20:30 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: erratic#1
+Dec 10, 2025 12:20:31 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 12:20:31 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 12:20:31 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 10, 2025 12:20:31 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 10, 2025 12:20:35 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 12:20:35 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 12:20:37 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 12:20:37 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 12:21:05 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 10, 2025 12:21:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 10, 2025 12:21:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's erratic#1's turn[0m
+Dec 10, 2025 12:21:11 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 12:21:11 PM Project.Common.LoggerUtil info
+INFO: [0;34merratic#1 picked r[0m
+Dec 10, 2025 12:21:17 PM Project.Common.LoggerUtil info
+INFO: [0;34morkzi#2 picked s[0m
+Dec 10, 2025 12:21:17 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 10, 2025 12:21:17 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's orkzi#2's turn[0m
+Dec 10, 2025 12:21:30 PM Project.Common.LoggerUtil info
+INFO: [0;34morkzi#2 picked r[0m
+Dec 10, 2025 12:21:30 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 10, 2025 12:21:30 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's erratic#1's turn[0m
+Dec 10, 2025 12:21:41 PM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 12:21:41 PM Project.Common.LoggerUtil info
+INFO: [0;34merratic#1 picked p[0m
+Dec 10, 2025 12:21:41 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 12:21:41 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=false, isQuiet=false
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil info
+INFO: [0;33mgame1[0m
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil info
+INFO: [0;34morkzi#2 disconnected[0m
+Dec 10, 2025 1:00:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 1:00:16 PM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 10, 2025 11:50:30 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:50:36 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Erratic#1
+Dec 10, 2025 11:50:48 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 10, 2025 11:50:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:50:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:50:48 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Orkzi#2
+Dec 10, 2025 11:50:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 joined the room[0m
+Dec 10, 2025 11:50:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=true, isQuiet=false
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Erratic#1
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:51:03 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 10, 2025 11:51:11 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=true, isQuiet=false
+Dec 10, 2025 11:51:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:51:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:51:11 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Orkzi#2
+Dec 10, 2025 11:51:11 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 joined the room[0m
+Dec 10, 2025 11:51:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 10, 2025 11:51:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:51:13 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 11:51:14 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:51:14 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 11:51:43 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 10, 2025 11:51:43 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 10, 2025 11:51:44 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Orkzi#2's turn[0m
+Dec 10, 2025 11:51:46 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 11:51:46 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked r[0m
+Dec 10, 2025 11:51:52 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 picked p[0m
+Dec 10, 2025 11:51:52 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 played 🪨 Rock, Orkzi#2 played 📄 Paper[0m
+Dec 10, 2025 11:51:52 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 wins and gets 1 point! (Total: 1)[0m
+Dec 10, 2025 11:51:52 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 10, 2025 11:51:52 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:51:52 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:52:02 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 10, 2025 11:52:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked s[0m
+Dec 10, 2025 11:52:09 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 picked p[0m
+Dec 10, 2025 11:52:09 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 played ✂️ Scissors, Orkzi#2 played 📄 Paper[0m
+Dec 10, 2025 11:52:09 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 wins and gets 1 point! (Total: 1)[0m
+Dec 10, 2025 11:52:09 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 10, 2025 11:52:09 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Orkzi#2's turn[0m
+Dec 10, 2025 11:52:09 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:52:20 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 picked p[0m
+Dec 10, 2025 11:52:21 PM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 10, 2025 11:52:21 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked p[0m
+Dec 10, 2025 11:52:21 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 played 📄 Paper, Orkzi#2 played 📄 Paper[0m
+Dec 10, 2025 11:52:21 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's a tie![0m
+Dec 10, 2025 11:52:21 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:52:21 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:52:46 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:46 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 11:52:46 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 10, 2025 11:52:46 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 10, 2025 11:52:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:52:48 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 11:52:49 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 10, 2025 11:52:49 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 10, 2025 11:53:16 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 10, 2025 11:53:16 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 10, 2025 11:53:16 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:53:32 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 10, 2025 11:53:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked r[0m
+Dec 10, 2025 11:53:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 picked p[0m
+Dec 10, 2025 11:53:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 played 🪨 Rock, Orkzi#2 played 📄 Paper[0m
+Dec 10, 2025 11:53:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 wins and gets 1 point! (Total: 2)[0m
+Dec 10, 2025 11:53:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 10, 2025 11:53:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Orkzi#2's turn[0m
+Dec 10, 2025 11:53:38 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:53:42 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 picked l[0m
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: Player chose: K
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked k[0m
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 played 🖖 Spock, Orkzi#2 played 🦎 Lizard[0m
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 wins and gets 1 point! (Total: 3)[0m
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Erratic#1's turn[0m
+Dec 10, 2025 11:53:45 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 10, 2025 11:53:50 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 10, 2025 11:53:50 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 picked s[0m
+Dec 10, 2025 11:53:53 PM Project.Common.LoggerUtil info
+INFO: [0;34mOrkzi#2 picked p[0m
+Dec 10, 2025 11:53:53 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 played ✂️ Scissors, Orkzi#2 played 📄 Paper[0m
+Dec 10, 2025 11:53:53 PM Project.Common.LoggerUtil info
+INFO: [0;34mErratic#1 wins and gets 1 point! (Total: 2)[0m
+Dec 10, 2025 11:53:53 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 10, 2025 11:53:53 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 10, 2025 11:53:53 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:02:17 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:02:17 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:02:17 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:02:17 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:02:17 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:02:17 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:02:45 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 2
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Steph#1
+Dec 11, 2025 12:03:41 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#2
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil info
+INFO: [0;34mSteph#1 left the room[0m
+Dec 11, 2025 12:03:51 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=true, isQuiet=true
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Steph#1
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#2
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 12:03:58 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 12:04:00 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:04:00 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:04:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:04:01 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:04:30 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:04:30 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:04:30 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Bryan#2's turn[0m
+Dec 11, 2025 12:04:37 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:04:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mBryan#2 picked r[0m
+Dec 11, 2025 12:04:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mSteph#1 picked r[0m
+Dec 11, 2025 12:04:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's a tie![0m
+Dec 11, 2025 12:04:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:04:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Steph#1's turn[0m
+Dec 11, 2025 12:04:59 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 12:04:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou must be marked 'ready' to do this action[0m
+Dec 11, 2025 12:04:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:04:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou must be ready to make a pick[0m
+Dec 11, 2025 12:04:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:05:13 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 12:05:13 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou must be marked 'ready' to do this action[0m
+Dec 11, 2025 12:05:13 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:05:13 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou must be ready to make a pick[0m
+Dec 11, 2025 12:05:13 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:05:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:05:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:05:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Bryan#2's turn[0m
+Dec 11, 2025 12:05:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Steph#1's turn[0m
+Dec 11, 2025 12:06:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:06:15 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:06:15 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=false, isQuiet=false
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil info
+INFO: [0;33mgame1[0m
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil info
+INFO: [0;34mSteph#1 disconnected[0m
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:12:40 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:12:41 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:12:41 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:12:41 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:12:41 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:12:41 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:13:07 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:13:25 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: bry#1
+Dec 11, 2025 12:13:34 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:13:34 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:13:34 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:13:34 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: steph#2
+Dec 11, 2025 12:13:34 AM Project.Common.LoggerUtil info
+INFO: [0;34msteph#2 joined the room[0m
+Dec 11, 2025 12:13:34 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: bry#1
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:13:46 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 12:14:02 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 12:14:02 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:14:02 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:14:02 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: steph#2
+Dec 11, 2025 12:14:02 AM Project.Common.LoggerUtil info
+INFO: [0;34msteph#2 joined the room[0m
+Dec 11, 2025 12:14:02 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:14:05 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:14:05 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:14:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:14:06 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:14:35 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:14:35 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:14:35 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's bry#1's turn[0m
+Dec 11, 2025 12:14:48 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:14:48 AM Project.Common.LoggerUtil info
+INFO: [0;34mbry#1 picked r[0m
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil info
+INFO: [0;34msteph#2 picked p[0m
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil info
+INFO: [0;34msteph#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's steph#2's turn[0m
+Dec 11, 2025 12:14:58 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:15:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:15:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:15:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's bry#1's turn[0m
+Dec 11, 2025 12:15:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's steph#2's turn[0m
+Dec 11, 2025 12:16:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:23:48 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:23:48 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:23:48 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:23:48 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:23:48 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:23:48 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:24:04 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:24:17 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 2
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 12:24:18 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:24:27 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:24:28 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:24:28 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:24:28 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 12:24:33 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:24:33 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:24:33 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:24:33 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 12:24:33 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 joined the room[0m
+Dec 11, 2025 12:24:33 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:24:35 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:24:35 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:24:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:24:39 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:25:05 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:25:05 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:25:05 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:25:10 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:25:10 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked p[0m
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 12:25:12 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:25:42 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:25:42 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:25:42 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:26:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 12:26:42 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 disconnected[0m
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:28:25 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:28:36 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:28:50 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#1
+Dec 11, 2025 12:28:52 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:28:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:28:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:28:52 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#2
+Dec 11, 2025 12:28:52 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#2 joined the room[0m
+Dec 11, 2025 12:28:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#1
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:29:01 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 12:29:07 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:29:07 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:29:07 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:29:07 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#2
+Dec 11, 2025 12:29:07 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#2 joined the room[0m
+Dec 11, 2025 12:29:07 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:29:09 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:29:09 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:29:12 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:29:12 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:29:40 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:29:40 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:29:40 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#1's turn[0m
+Dec 11, 2025 12:29:42 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:29:42 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#1 picked r[0m
+Dec 11, 2025 12:29:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#2 picked s[0m
+Dec 11, 2025 12:29:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:29:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:29:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#2's turn[0m
+Dec 11, 2025 12:29:45 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:30:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:30:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:30:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#1's turn[0m
+Dec 11, 2025 12:30:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#2's turn[0m
+Dec 11, 2025 12:31:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough ready players to complete the round[0m
+Dec 11, 2025 12:31:15 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:31:15 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:34:55 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:34:55 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:34:55 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:34:55 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:34:55 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:34:55 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:35:07 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:35:17 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 12:35:24 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:35:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:35:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:35:24 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:35:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 joined the room[0m
+Dec 11, 2025 12:35:24 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 left the room[0m
+Dec 11, 2025 12:35:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 12:35:39 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 12:35:40 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:35:40 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:35:42 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:35:42 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:36:10 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:36:10 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:36:10 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 12:36:17 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:36:17 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 12:36:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:36:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:36:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:36:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:36:18 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:36:22 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:36:26 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 12:36:26 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked s[0m
+Dec 11, 2025 12:36:26 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:36:26 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:36:26 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 12:36:26 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:36:40 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:36:40 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 12:36:41 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 12:36:41 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 12:36:41 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:36:41 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:36:41 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:36:58 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:36:58 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:37:01 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:37:01 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:37:04 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:37:04 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:37:05 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:37:05 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:37:28 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:37:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 4 has started[0m
+Dec 11, 2025 12:37:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 12:38:01 AM Project.Common.LoggerUtil info
+INFO: Player chose: L
+Dec 11, 2025 12:38:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked l[0m
+Dec 11, 2025 12:38:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 12:38:01 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:38:01 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:38:01 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:42:05 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:42:05 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:42:05 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:42:05 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:42:05 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:42:05 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:42:17 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:42:21 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#1
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:42:28 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 12:42:44 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:42:44 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:42:44 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:42:44 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:42:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 joined the room[0m
+Dec 11, 2025 12:42:44 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:42:54 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:42:54 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:42:56 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:42:56 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:43:24 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:43:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:43:24 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:43:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 12:43:36 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:43:36 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 picked r[0m
+Dec 11, 2025 12:43:36 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:43:36 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:43:36 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#1's turn[0m
+Dec 11, 2025 12:43:36 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:43:45 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 12:43:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 picked p[0m
+Dec 11, 2025 12:43:48 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 12:43:48 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:43:48 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:43:48 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:43:48 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:43:51 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:43:51 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 picked r[0m
+Dec 11, 2025 12:43:54 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:43:54 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 12:43:54 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:43:54 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:43:54 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:44:07 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:44:07 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:44:08 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:44:08 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:44:09 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:44:09 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:44:10 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:44:10 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:44:37 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:44:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:44:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:44:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:44:45 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 12:44:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 picked s[0m
+Dec 11, 2025 12:44:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 12:44:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:44:45 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#1's turn[0m
+Dec 11, 2025 12:44:45 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:44:47 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 12:44:47 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 picked s[0m
+Dec 11, 2025 12:44:50 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:44:50 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 wins and gets 1 point! (Total: 3)[0m
+Dec 11, 2025 12:44:50 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:44:50 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:44:50 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:44:57 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 12:45:00 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 12:45:00 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 picked p[0m
+Dec 11, 2025 12:45:00 AM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 wins and gets 1 point! (Total: 4)[0m
+Dec 11, 2025 12:45:00 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:45:00 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:45:00 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:24:25 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 1:24:25 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 1:24:25 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 1:24:25 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 1:24:25 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 1:24:25 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 1:24:37 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 2
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 1:24:52 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:24:57 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 1:25:04 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 1:25:04 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:25:04 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:25:04 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 1:25:04 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 joined the room[0m
+Dec 11, 2025 1:25:04 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:25:07 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:25:07 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:25:08 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:25:08 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 1:25:37 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 1:25:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 1:25:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:25:47 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 1:25:54 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 1:25:54 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 1:25:54 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:25:54 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 1:25:54 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 1:25:54 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:25:59 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 1:25:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 1:26:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 1:26:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:26:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 1:26:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:26:01 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:26:03 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 1:26:04 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 1:26:04 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 1:26:04 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 1:26:04 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:26:04 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:26:04 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:26:14 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:26:14 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:26:15 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:26:15 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 1:26:44 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 1:26:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 1:26:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 1:26:49 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 1:26:49 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 1:26:56 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 1:26:56 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:26:56 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 1:26:56 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:26:56 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:26:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 1:27:00 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 1:27:00 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 1:27:00 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:27:00 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 1:27:00 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 1:27:00 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:27:01 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 1:27:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 1:27:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked p[0m
+Dec 11, 2025 1:27:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 1:27:02 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:27:02 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:27:03 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:27:11 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:27:11 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:27:13 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 1:27:13 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:27:41 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 1:27:41 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 1:27:41 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:27:56 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked l[0m
+Dec 11, 2025 1:27:58 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 1:27:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 1:27:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:27:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 1:27:58 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 1:27:58 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:28:16 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 1:28:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 1:28:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked s[0m
+Dec 11, 2025 1:28:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 1:28:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 1:28:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:28:25 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:28:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked k[0m
+Dec 11, 2025 1:28:31 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 1:28:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 1:28:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:28:31 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:28:31 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:28:31 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 disconnected[0m
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 1:40:16 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 1:40:31 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 1:40:48 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 1:40:48 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 1:40:48 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 2
+Dec 11, 2025 1:40:48 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 1:40:49 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 left the room[0m
+Dec 11, 2025 1:40:55 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 1:40:59 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 1:41:04 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:41:04 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 1:41:05 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:41:05 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:41:13 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:41:13 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:41:34 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 1:41:34 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 1:41:34 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:41:44 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked p[0m
+Dec 11, 2025 1:41:47 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 1:41:47 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 1:41:47 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:41:47 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 1:41:47 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 1:41:47 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:41:56 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 1:41:56 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 1:42:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked p[0m
+Dec 11, 2025 1:42:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 1:42:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 1:42:02 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 1:42:02 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:42:13 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 1:42:22 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 1:42:22 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 1:42:22 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 1:42:22 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 1:42:23 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:42:23 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 disconnected[0m
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:42:38 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 1:42:39 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:42:39 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:59:02 AM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 1:59:02 AM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 1:59:02 AM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 1:59:02 AM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 1:59:02 AM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 1:59:02 AM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 1:59:12 AM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil fine
+FINE: Received client id: 2
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 1:59:25 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 1:59:31 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:59:32 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 1:59:37 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 1:59:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:59:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:59:37 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 1:59:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 joined the room[0m
+Dec 11, 2025 1:59:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:59:42 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:59:42 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 1:59:44 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 1:59:44 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:00:12 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:00:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:00:12 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:00:16 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 2:00:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 2:00:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked s[0m
+Dec 11, 2025 2:00:18 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:00:19 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:00:19 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:00:19 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:00:22 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked s[0m
+Dec 11, 2025 2:00:23 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 2:00:23 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 2:00:23 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:00:23 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 2:00:23 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 2:00:23 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:00:28 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 2:00:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 2:00:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked s[0m
+Dec 11, 2025 2:00:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 3)[0m
+Dec 11, 2025 2:00:29 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:00:29 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:00:29 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:00:37 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:00:37 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 2:00:38 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:00:38 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:01:07 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:01:07 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:01:07 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:01:15 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked k[0m
+Dec 11, 2025 2:01:16 AM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 2:01:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 2:01:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:01:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:01:16 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:01:16 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:01:20 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 2:01:20 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 2:01:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 2:01:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:01:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 2:01:25 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:01:25 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:01:28 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 2:01:29 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 2:01:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 2:01:29 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 2:01:29 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:01:29 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:01:29 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 2:01:49 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: S#1
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 2:02:06 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 2:02:35 AM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 2:02:35 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:02:35 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:02:35 AM Project.Common.LoggerUtil info
+INFO: [0;34mL#3 joined the room[0m
+Dec 11, 2025 2:02:35 AM Project.Common.LoggerUtil info
+INFO: Adding user to list: L#3
+Dec 11, 2025 2:02:35 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:03:07 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:07 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 2:03:08 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:03:08 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:03:37 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:03:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:03:37 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:03:50 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked p[0m
+Dec 11, 2025 2:04:05 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 2:04:05 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 2:04:05 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:04:05 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:04:06 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:04:06 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:04:09 AM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 2:04:09 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 2:04:11 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 2:04:11 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 2:04:11 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 2:04:11 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:04:11 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:04:11 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 picked r[0m
+Dec 11, 2025 2:04:13 AM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 2:04:13 AM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 2:04:13 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:04:14 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:04:14 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:04:14 AM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:04:31 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:04:31 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:04:32 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:04:32 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 2:04:36 AM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:04:36 AM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to true
+Dec 11, 2025 2:05:01 AM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:05:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:05:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:05:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#3's turn[0m
+Dec 11, 2025 2:06:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:06:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 did not make a choice[0m
+Dec 11, 2025 2:06:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:06:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:07:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#3's turn[0m
+Dec 11, 2025 2:07:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:08:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 did not make a choice[0m
+Dec 11, 2025 2:08:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 2:08:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 2:08:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#3's turn[0m
+Dec 11, 2025 2:09:01 AM Project.Common.LoggerUtil info
+INFO: [0;34mIt's S#1's turn[0m
+Dec 11, 2025 2:09:31 AM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 did not make a choice[0m
+Dec 11, 2025 2:09:31 AM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:09:31 AM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: [0;34mS#1 disconnected[0m
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 12:07:13 PM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 12:07:38 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 1
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:07:42 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:07:43 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:07:43 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: L#1
+Dec 11, 2025 12:07:55 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:07:55 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:07:55 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:07:55 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:07:55 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 joined the room[0m
+Dec 11, 2025 12:07:55 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:08 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:08:08 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:08:08 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:08:08 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#3
+Dec 11, 2025 12:08:08 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 joined the room[0m
+Dec 11, 2025 12:08:08 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 3
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 left the room[0m
+Dec 11, 2025 12:08:19 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 left the room[0m
+Dec 11, 2025 12:08:29 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:08:38 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#3
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: L#1
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 12:08:39 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to false
+Dec 11, 2025 12:08:41 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:08:41 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 is away[0m
+Dec 11, 2025 12:08:41 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:08:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:08:48 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:08:49 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:08:49 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:09:18 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:09:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:09:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#1's turn[0m
+Dec 11, 2025 12:09:30 PM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 12:09:30 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 picked p[0m
+Dec 11, 2025 12:09:40 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:09:40 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's a tie![0m
+Dec 11, 2025 12:09:40 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:09:40 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:09:51 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 12:09:57 PM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 12:09:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 picked p[0m
+Dec 11, 2025 12:09:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:09:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:09:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#1's turn[0m
+Dec 11, 2025 12:09:57 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:10:17 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:10:17 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 picked r[0m
+Dec 11, 2025 12:10:20 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked s[0m
+Dec 11, 2025 12:10:20 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:10:20 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:10:20 PM Project.Common.LoggerUtil info
+INFO: [0;34mGame Over: Tie between L#1, B#2 with 1 point(s)![0m
+Dec 11, 2025 12:10:20 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:10:21 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:11:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 12:11:48 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 12:11:51 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:11:51 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:12:19 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:12:19 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:12:19 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#1's turn[0m
+Dec 11, 2025 12:12:27 PM Project.Common.LoggerUtil info
+INFO: Player chose: K
+Dec 11, 2025 12:12:27 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 picked k[0m
+Dec 11, 2025 12:12:35 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:12:35 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:12:35 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:12:35 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:12:35 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:12:41 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:12:43 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:12:43 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 picked r[0m
+Dec 11, 2025 12:12:43 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 12:12:43 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:12:43 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's L#1's turn[0m
+Dec 11, 2025 12:12:43 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:12:46 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 12:12:46 PM Project.Common.LoggerUtil info
+INFO: [0;34mL#1 picked s[0m
+Dec 11, 2025 12:12:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 12:12:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 3)[0m
+Dec 11, 2025 12:12:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mGame Over: B#2 wins with 3 point(s)![0m
+Dec 11, 2025 12:12:48 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:12:48 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:12:48 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:39:20 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 4
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:40:45 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#4
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:41:57 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 4 to false
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=game1, isJoin=false, isQuiet=false
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 4
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: [0;33mgame1[0m
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:49:40 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=4, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#3
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: Bryan#4
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to false
+Dec 11, 2025 12:49:48 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 4 to false
+Dec 11, 2025 12:49:51 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:49:51 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 is no longer away[0m
+Dec 11, 2025 12:49:51 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 left the room[0m
+Dec 11, 2025 12:50:26 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:50:30 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:50:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:50:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:50:30 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 12:50:30 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 joined the room[0m
+Dec 11, 2025 12:50:30 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 3
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 left the room[0m
+Dec 11, 2025 12:51:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:51:28 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 12:51:28 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:51:28 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:51:28 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#3
+Dec 11, 2025 12:51:28 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 joined the room[0m
+Dec 11, 2025 12:51:28 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 12:51:36 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:51:36 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to true
+Dec 11, 2025 12:51:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:51:38 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:51:39 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:51:39 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 4 to true
+Dec 11, 2025 12:52:06 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:52:06 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:52:06 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#3's turn[0m
+Dec 11, 2025 12:52:29 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 picked r[0m
+Dec 11, 2025 12:52:33 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked p[0m
+Dec 11, 2025 12:52:36 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 12:52:36 PM Project.Common.LoggerUtil info
+INFO: [0;34mBryan#4 picked s[0m
+Dec 11, 2025 12:52:36 PM Project.Common.LoggerUtil info
+INFO: [0;34mBryan#4 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:52:36 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:52:36 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:52:36 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:52:43 PM Project.Common.LoggerUtil info
+INFO: Player chose: R
+Dec 11, 2025 12:52:43 PM Project.Common.LoggerUtil info
+INFO: [0;34mBryan#4 picked r[0m
+Dec 11, 2025 12:52:46 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 picked r[0m
+Dec 11, 2025 12:52:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#3 picked s[0m
+Dec 11, 2025 12:52:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 wins and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 12:52:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:52:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Bryan#4's turn[0m
+Dec 11, 2025 12:52:48 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 12:53:15 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 12:53:15 PM Project.Common.LoggerUtil info
+INFO: [0;34mBryan#4 picked s[0m
+Dec 11, 2025 12:53:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 did not make a choice[0m
+Dec 11, 2025 12:53:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mGame Over: Tie between B#2, Bryan#4 with 1 point(s)![0m
+Dec 11, 2025 12:53:18 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:53:18 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 12:53:32 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 12:53:32 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 12:53:33 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 4
+Dec 11, 2025 12:53:33 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 4 to true
+Dec 11, 2025 12:53:34 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 12:53:34 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to true
+Dec 11, 2025 12:54:02 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 12:54:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 12:54:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#3's turn[0m
+Dec 11, 2025 12:54:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:55:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Bryan#4's turn[0m
+Dec 11, 2025 12:55:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 did not make a choice[0m
+Dec 11, 2025 12:55:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 12:55:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#3's turn[0m
+Dec 11, 2025 12:56:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:56:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Bryan#4's turn[0m
+Dec 11, 2025 12:57:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 did not make a choice[0m
+Dec 11, 2025 12:57:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 12:57:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#3's turn[0m
+Dec 11, 2025 12:57:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's B#2's turn[0m
+Dec 11, 2025 12:58:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's Bryan#4's turn[0m
+Dec 11, 2025 12:58:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 did not make a choice[0m
+Dec 11, 2025 12:58:32 PM Project.Common.LoggerUtil info
+INFO: [0;34mGame Over: Tie between B#2, A#3, Bryan#4 with 0 point(s)![0m
+Dec 11, 2025 12:58:32 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 12:58:32 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 disconnected[0m
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 1:53:53 PM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 2:02:41 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 2
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#1
+Dec 11, 2025 2:03:20 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined game1[0m
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#2
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:03:31 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 2:03:38 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 2:03:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:03:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:03:38 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#1
+Dec 11, 2025 2:03:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#1 joined the room[0m
+Dec 11, 2025 2:03:38 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:04:05 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=game1, isJoin=true, isQuiet=false
+Dec 11, 2025 2:04:05 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:04:05 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:04:05 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: C#3
+Dec 11, 2025 2:04:05 PM Project.Common.LoggerUtil info
+INFO: [0;34mC#3 joined the room[0m
+Dec 11, 2025 2:04:05 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:04:19 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:04:19 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 2:04:21 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:04:21 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:04:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:04:23 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to true
+Dec 11, 2025 2:04:49 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:04:49 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:04:49 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's C#3's turn[0m
+Dec 11, 2025 2:04:54 PM Project.Common.LoggerUtil info
+INFO: [0;34mC#3 has selected their choice[0m
+Dec 11, 2025 2:05:02 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#1 has selected their choice[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#2 has selected their choice[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  B#1 (📄 Paper) vs A#2 (✂️ Scissors) - A#2 wins![0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  B#1 (📄 Paper) vs C#3 (🪨 Rock) - B#1 wins![0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#2 (✂️ Scissors) vs C#3 (🪨 Rock) - C#3 wins![0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 B#1 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 A#2 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 C#3 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34mIt's A#2's turn[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=game1, isJoin=false, isQuiet=false
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;33mgame1[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#1 disconnected[0m
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:05:07 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil info
+INFO: [0;34m💀 A#2 was eliminated for not making a choice[0m
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil severe
+SEVERE: Error reading object as specified type:
+java.lang.ClassCastException: class Project.Common.TimerType cannot be cast to class Project.Common.Payload (Project.Common.TimerType and Project.Common.Payload are in unnamed module of loader 'app')
+	at Project.Client.Client.listenToServer(Client.java:475)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1850)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1842)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1394)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1970)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 2:05:37 PM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped
+Dec 11, 2025 2:15:24 PM Project.Common.LoggerUtil info
+INFO: Client Created
+Dec 11, 2025 2:15:52 PM Project.Common.LoggerUtil info
+INFO: Client connected
+Dec 11, 2025 2:15:52 PM Project.Common.LoggerUtil info
+INFO: [0;32mConnected[0m
+Dec 11, 2025 2:15:52 PM Project.Common.LoggerUtil fine
+FINE: Received client id: 3
+Dec 11, 2025 2:15:52 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=true, isQuiet=true
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined lobby[0m
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=lobby, isJoin=true, isQuiet=false
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#1
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 2:15:53 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: C#3
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 left the room[0m
+Dec 11, 2025 2:16:03 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 2
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 left the room[0m
+Dec 11, 2025 2:16:08 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=lobby, isJoin=false, isQuiet=false
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 3
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: [0;33mlobby[0m
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou left the room[0m
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=-1, roomName=null, isJoin=false, isQuiet=true
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=2, roomName=mm, isJoin=true, isQuiet=true
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: [0;32mJoined mm[0m
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=3, roomName=mm, isJoin=true, isQuiet=false
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: [0;34mYou joined the room[0m
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Clearing user list
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: A#1
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: B#2
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Adding user to list: C#3
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to false
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to false
+Dec 11, 2025 2:16:12 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to false
+Dec 11, 2025 2:16:19 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:16:19 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:16:21 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 2:16:21 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:16:23 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:16:23 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to true
+Dec 11, 2025 2:16:49 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:16:49 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:16:55 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 has selected their choice[0m
+Dec 11, 2025 2:16:58 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 has selected their choice[0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34mC#3 has selected their choice[0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#1 (🪨 Rock) vs B#2 (📄 Paper) - B#2 wins![0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#1 (🪨 Rock) vs C#3 (✂️ Scissors) - A#1 wins![0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  B#2 (📄 Paper) vs C#3 (✂️ Scissors) - C#3 wins![0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 A#1 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 B#2 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 C#3 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:16:59 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:17:00 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:17:00 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:17:00 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:17:23 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 has selected their choice[0m
+Dec 11, 2025 2:17:24 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 has selected their choice[0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: Player chose: P
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34mC#3 has selected their choice[0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#1 (🪨 Rock) vs B#2 (📄 Paper) - B#2 wins![0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#1 (🪨 Rock) vs C#3 (📄 Paper) - C#3 wins![0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  B#2 (📄 Paper) vs C#3 (📄 Paper) - Tie![0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 B#2 wins the round and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 C#3 wins the round and gets 1 point! (Total: 2)[0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34m💀 A#1 has been eliminated![0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 3 has started[0m
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:17:26 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:17:34 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 has selected their choice[0m
+Dec 11, 2025 2:17:38 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 has selected their choice[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: Player chose: S
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34mC#3 has selected their choice[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  B#2 (📄 Paper) vs C#3 (✂️ Scissors) - C#3 wins![0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 C#3 wins the round and gets 1 point! (Total: 3)[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m💀 B#2 has been eliminated![0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34mGame Over: C#3 wins with 3 point(s)![0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m═══════════════════════════[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m📊 FINAL SCOREBOARD[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m═══════════════════════════[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m1. C#3 - 3 point(s)[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m2. B#2 - 2 point(s) [ELIMINATED][0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m3. A#1 - 1 point(s) [ELIMINATED][0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: [0;34m═══════════════════════════[0m
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 2:17:42 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:19:09 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 2:19:09 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 1 to true
+Dec 11, 2025 2:19:10 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 2
+Dec 11, 2025 2:19:10 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 2 to true
+Dec 11, 2025 2:19:11 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 3
+Dec 11, 2025 2:19:11 PM Project.Common.LoggerUtil info
+INFO: Setting user item ready for id 3 to true
+Dec 11, 2025 2:19:39 PM Project.Common.LoggerUtil fine
+FINE: Received phase: IN_PROGRESS
+Dec 11, 2025 2:19:39 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 1 has started[0m
+Dec 11, 2025 2:19:45 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 has selected their choice[0m
+Dec 11, 2025 2:19:46 PM Project.Common.LoggerUtil info
+INFO: [0;34mB#2 has selected their choice[0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: Player chose: L
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mC#3 has selected their choice[0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#1 (🪨 Rock) vs B#2 (🪨 Rock) - Tie![0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  A#1 (🪨 Rock) vs C#3 (🦎 Lizard) - A#1 wins![0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34m⚔️  B#2 (🪨 Rock) vs C#3 (🦎 Lizard) - B#2 wins![0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 A#1 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34m🏆 B#2 wins the round and gets 1 point! (Total: 1)[0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34m💀 C#3 has been eliminated![0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: [0;34mRound 2 has started[0m
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:19:48 PM Project.Common.LoggerUtil info
+INFO: Resorting user list
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m💀 A#1 was eliminated for not making a choice[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m💀 B#2 was eliminated for not making a choice[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mNot enough active players to complete the round[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mGame Over: Tie between A#1, B#2 with 1 point(s)![0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m═══════════════════════════[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m📊 FINAL SCOREBOARD[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m═══════════════════════════[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m1. A#1 - 1 point(s) [ELIMINATED][0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m2. B#2 - 1 point(s) [ELIMINATED][0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m3. C#3 - 0 point(s) [ELIMINATED][0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil info
+INFO: [0;34m═══════════════════════════[0m
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil fine
+FINE: Received phase: READY
+Dec 11, 2025 2:20:18 PM Project.Common.LoggerUtil fine
+FINE: Current View: CHAT_GAME_SCREEN
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil fine
+FINE: onRoomAction: clientId=1, roomName=mm, isJoin=false, isQuiet=false
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id 1
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil info
+INFO: Removing user list item for id 1
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil info
+INFO: [0;33mmm[0m
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil info
+INFO: [0;34mA#1 disconnected[0m
+Dec 11, 2025 4:02:18 PM Project.Common.LoggerUtil info
+INFO: Getting display name for client id -1
+Dec 11, 2025 4:02:19 PM Project.Common.LoggerUtil warning
+WARNING: Connection dropped
+Dec 11, 2025 4:02:19 PM Project.Common.LoggerUtil info
+INFO: Closing output stream
+Dec 11, 2025 4:02:19 PM Project.Common.LoggerUtil info
+INFO: Closing input stream
+Dec 11, 2025 4:02:19 PM Project.Common.LoggerUtil info
+INFO: Closing connection
+Dec 11, 2025 4:02:19 PM Project.Common.LoggerUtil info
+INFO: Closed Socket
+Dec 11, 2025 4:02:19 PM Project.Common.LoggerUtil info
+INFO: listenToServer thread stopped

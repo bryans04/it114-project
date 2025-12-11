@@ -2,6 +2,7 @@ package Project.Common;
 
 public class ConnectionPayload extends Payload {
     private String clientName;
+    private boolean spectator = false;
 
     /**
      * @return the clientName
@@ -17,11 +18,19 @@ public class ConnectionPayload extends Payload {
         this.clientName = clientName;
     }
 
+    public boolean isSpectator() {
+        return spectator;
+    }
+
+    public void setSpectator(boolean spectator) {
+        this.spectator = spectator;
+    }
+
     @Override
     public String toString() {
         return super.toString() +
-                String.format(" ClientName: [%s]",
-                        getClientName());
+            String.format(" ClientName: [%s] spectator=%b",
+                getClientName(), spectator);
     }
 
 }
