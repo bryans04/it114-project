@@ -68,7 +68,7 @@ public enum Server {
         info("Listening on port " + this.port);
         // Simplified client connection loop
         try (ServerSocket serverSocket = new ServerSocket(port)) {
-            createRoom(Room.LOBBY);// create the first room (lobby)
+            createLobby();// create the lobby as a plain Room (not a GameRoom)
             while (isRunning) {
                 info("Waiting for next client");
                 Socket incomingClient = serverSocket.accept(); // blocking action, waits for a client connection
@@ -113,7 +113,23 @@ public enum Server {
     }
 
     /**
-     * Attempts to create a new Room and add it to the tracked rooms collection
+     * Creates the Lobby as a plain Room (not a GameRoom)
+     * 
+     * @throws DuplicateRoomException
+     */
+    private void createLobby() throws DuplicateRoomException {
+        final String nameCheck = Room.LOBBY.toLowerCase();
+        if (rooms.containsKey(nameCheck)) {
+            throw new DuplicateRoomException(String.format("Room %s already exists", Room.LOBBY));
+        }
+        // Lobby is a plain Room, not a GameRoom
+        Room room = new Room(Room.LOBBY);
+        rooms.put(nameCheck, room);
+        info(String.format("Created Lobby"));
+    }
+
+    /**
+     * Attempts to create a new GameRoom and add it to the tracked rooms collection
      * 
      * @param name Unique name of the room
      * @return true if it was created and false if it wasn't
@@ -124,9 +140,10 @@ public enum Server {
         if (rooms.containsKey(nameCheck)) {
             throw new DuplicateRoomException(String.format("Room %s already exists", name));
         }
-        Room room = new Room(name);
+        // User-created rooms are GameRooms so /ready and game turns work
+        Room room = new GameRoom(name);
         rooms.put(nameCheck, room);
-        info(String.format("Created new Room %s", name));
+        info(String.format("Created new GameRoom %s", name));
     }
 
     /**
@@ -149,6 +166,20 @@ public enum Server {
         }
         Room next = rooms.get(nameCheck);
         next.addClient(client);
+    }
+
+    /**
+     * Join a room as a spectator or normal player.
+     *
+     * @param name
+     * @param client
+     * @param spectator
+     * @throws RoomNotFoundException
+     */
+    protected void joinRoom(String name, ServerThread client, boolean spectator) throws RoomNotFoundException {
+        // Mark spectator flag on the server side before adding to room
+        client.setSpectator(spectator);
+        joinRoom(name, client);
     }
 
     /**

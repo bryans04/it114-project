@@ -88,6 +88,42 @@ public abstract class BaseServerThread extends Thread {
         this.user.setPoints(points);
     }
 
+    public void changePoints(int points) {
+        this.user.setPoints(this.user.getPoints() + points);
+    }
+
+    public boolean isReady() {
+        return this.user.isReady();
+    }
+
+    public void setReady(boolean isReady) {
+        this.user.setReady(isReady);
+    }
+
+    public boolean didTakeTurn() {
+        return this.user.didTakeTurn();
+    }
+
+    public void setTookTurn(boolean tookTurn) {
+        this.user.setTookTurn(tookTurn);
+    }
+
+    public boolean isSpectator() {
+        return this.user.isSpectator();
+    }
+
+    public void setSpectator(boolean spectator) {
+        this.user.setSpectator(spectator);
+    }
+
+    public boolean isAway() {
+        return this.user.isAway();
+    }
+
+    public void setAway(boolean away) {
+        this.user.setAway(away);
+    }
+
     public String getChoice() {
         return this.user.getChoice();
     }
