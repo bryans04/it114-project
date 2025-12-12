@@ -24894,3 +24894,699 @@ Dec 11, 2025 10:01:13 PM Project.Common.LoggerUtil info
 INFO: [0;36mThread[-1]: ServerThread cleanup() end[0m
 Dec 11, 2025 10:01:16 PM Project.Common.LoggerUtil info
 INFO: [0;33mServer: JVM is shutting down. Perform cleanup tasks.[0m
+Dec 11, 2025 10:01:21 PM Project.Common.LoggerUtil info
+INFO: Server Starting
+Dec 11, 2025 10:01:21 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Listening on port 3000[0m
+Dec 11, 2025 10:01:21 PM Project.Common.LoggerUtil info
+INFO: [0;35mRoom[lobby]: Created[0m
+Dec 11, 2025 10:01:21 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Created Lobby[0m
+Dec 11, 2025 10:01:21 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Waiting for next client[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Client connected[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: ServerThread created[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Waiting for next client[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Thread starting[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Received from my client: Payload[CLIENT_CONNECT] Client Id [0] Message: [null] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[CLIENT_ID] Client Id [1] Message: [null] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: *Alex#1 initialized*[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_JOIN] Client Id [-1] Message: [null] ClientName: [null] spectator=false[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_JOIN] Client Id [1] Message: [lobby] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You joined the room][0m
+Dec 11, 2025 10:01:28 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: *Alex#1 added to Lobby*[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Received from my client: Payload[ROOM_CREATE] Client Id [0] Message: [game1][0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;35mRoom[game1]: Created[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Created new GameRoom game1[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Removing client from previous Room lobby[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_LEAVE] Client Id [1] Message: [lobby] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You left the room][0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_JOIN] Client Id [-1] Message: [null] ClientName: [null] spectator=false[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_JOIN] Client Id [1] Message: [game1] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You joined the room][0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[PHASE] Client Id [0] Message: [READY][0m
+Dec 11, 2025 10:01:33 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[SYNC_READY] Client Id [1] Message: [null] isReady=false[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Client connected[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: ServerThread created[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Waiting for next client[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Thread starting[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Received from my client: Payload[CLIENT_CONNECT] Client Id [0] Message: [null] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[CLIENT_ID] Client Id [2] Message: [null] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: *Bryan#2 initialized*[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_JOIN] Client Id [-1] Message: [null] ClientName: [null] spectator=false[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_JOIN] Client Id [2] Message: [lobby] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You joined the room][0m
+Dec 11, 2025 10:01:44 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: *Bryan#2 added to Lobby*[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Received from my client: Payload[ROOM_JOIN] Client Id [0] Message: [game1][0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Removing client from previous Room lobby[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_LEAVE] Client Id [2] Message: [lobby] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You left the room][0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_JOIN] Client Id [-1] Message: [null] ClientName: [null] spectator=false[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[SYNC_CLIENT] Client Id [1] Message: [game1] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_JOIN] Client Id [2] Message: [game1] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Bryan#2 joined the room][0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_JOIN] Client Id [2] Message: [game1] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You joined the room][0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[PHASE] Client Id [0] Message: [READY][0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[SYNC_READY] Client Id [1] Message: [null] isReady=false[0m
+Dec 11, 2025 10:01:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[SYNC_READY] Client Id [2] Message: [null] isReady=false[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Client connected[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: ServerThread created[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Waiting for next client[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Thread starting[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Received from my client: Payload[CLIENT_CONNECT] Client Id [0] Message: [null] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[CLIENT_ID] Client Id [3] Message: [null] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: *Chris#3 initialized*[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[ROOM_JOIN] Client Id [-1] Message: [null] ClientName: [null] spectator=false[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[ROOM_JOIN] Client Id [3] Message: [lobby] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You joined the room][0m
+Dec 11, 2025 10:01:57 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: *Chris#3 added to Lobby*[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Received from my client: Payload[ROOM_JOIN] Client Id [0] Message: [game1][0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;33mServer: Removing client from previous Room lobby[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[ROOM_LEAVE] Client Id [3] Message: [lobby] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You left the room][0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[ROOM_JOIN] Client Id [-1] Message: [null] ClientName: [null] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[SYNC_CLIENT] Client Id [1] Message: [game1] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[SYNC_CLIENT] Client Id [2] Message: [game1] ClientName: [Bryan] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_JOIN] Client Id [3] Message: [game1] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 joined the room][0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_JOIN] Client Id [3] Message: [game1] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 joined the room][0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[ROOM_JOIN] Client Id [3] Message: [game1] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [You joined the room][0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[PHASE] Client Id [0] Message: [READY][0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[SYNC_READY] Client Id [1] Message: [null] isReady=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[SYNC_READY] Client Id [2] Message: [null] isReady=false[0m
+Dec 11, 2025 10:02:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[SYNC_READY] Client Id [3] Message: [null] isReady=false[0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Received from my client: Payload[AWAY] Client Id [3] Message: [null] away=true[0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[AWAY] Client Id [3] Message: [null] away=true[0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[AWAY] Client Id [3] Message: [null] away=true[0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[AWAY] Client Id [3] Message: [null] away=true[0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;35mRoom[game1]: sending message to 3 recipients: Chris#3 is away[0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 is away][0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 is away][0m
+Dec 11, 2025 10:02:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 is away][0m
+Dec 11, 2025 10:02:35 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Received from my client: Payload[READY] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:02:35 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[READY] Client Id [1] Message: [null] isReady=true[0m
+Dec 11, 2025 10:02:35 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[READY] Client Id [1] Message: [null] isReady=true[0m
+Dec 11, 2025 10:02:35 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[READY] Client Id [1] Message: [null] isReady=true[0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Received from my client: Payload[READY] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[READY] Client Id [2] Message: [null] isReady=true[0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[READY] Client Id [2] Message: [null] isReady=true[0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[READY] Client Id [2] Message: [null] isReady=true[0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:36 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:37 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:37 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:37 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:38 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:38 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:38 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:39 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:39 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:39 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:40 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:40 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:40 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:41 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:41 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:41 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:43 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:43 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:43 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:44 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:45 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:45 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:45 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:46 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:46 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:46 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:47 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:47 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:47 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:48 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:48 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:48 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:49 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:49 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:49 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:50 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:50 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:50 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:51 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:52 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:52 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:52 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:53 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:53 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:53 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:54 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:54 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:54 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:55 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:55 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:55 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:56 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:56 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:56 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:57 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:58 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:58 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:58 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:59 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:59 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:02:59 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:00 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:00 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:00 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:01 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:01 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:01 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:02 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:02 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:02 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:03 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:03 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:03 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:04 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:04 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:04 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: onSessionStart() start
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[PHASE] Client Id [0] Message: [IN_PROGRESS][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[PHASE] Client Id [0] Message: [IN_PROGRESS][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[PHASE] Client Id [0] Message: [IN_PROGRESS][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[SYNC_CLIENT] Client Id [3] Message: [null] ClientName: [Chris#3] spectator=true[0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[SYNC_CLIENT] Client Id [3] Message: [null] ClientName: [Chris#3] spectator=true[0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[SYNC_CLIENT] Client Id [3] Message: [null] ClientName: [Chris#3] spectator=true[0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Chris#3 is now spectating][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Chris#3 is now spectating][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Chris#3 is now spectating][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: onSessionStart() end
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: onRoundStart() start
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[RESET_TURN] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[RESET_TURN] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[RESET_TURN] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Round 1 has started][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Round 1 has started][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Round 1 has started][0m
+Dec 11, 2025 10:03:05 PM Project.Common.LoggerUtil info
+INFO: onRoundStart() end
+Dec 11, 2025 10:03:06 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:06 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:06 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:07 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:07 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:07 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:08 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:08 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:08 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:09 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:09 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:09 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:10 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:10 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:10 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:11 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:11 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:11 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:12 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:12 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:12 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:13 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:13 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:13 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:14 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:14 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:14 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:15 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:15 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:15 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:16 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:16 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:16 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:17 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:17 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:17 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:18 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:18 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:18 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:19 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:19 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:19 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:20 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:20 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:20 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Received from my client: Payload[PLAYER_PICK] Client Id [0] Message: [r][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 has selected their choice][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 has selected their choice][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 has selected their choice][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:21 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:22 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:22 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:22 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:23 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Received from my client: Payload[PLAYER_PICK] Client Id [0] Message: [s][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Bryan#2 has selected their choice][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Bryan#2 has selected their choice][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Bryan#2 has selected their choice][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: onRoundEnd() start
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[TIME] Client Id [0] Message: [null][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 (Rock) vs Bryan#2 (Scissors) - Alex#1 wins!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 (Rock) vs Bryan#2 (Scissors) - Alex#1 wins!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 (Rock) vs Bryan#2 (Scissors) - Alex#1 wins!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[POINTS] Client Id [1] Message: [null] points=1[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[POINTS] Client Id [1] Message: [null] points=1[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[POINTS] Client Id [1] Message: [null] points=1[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 wins the round and gets 1 point! (Total: 1)][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 wins the round and gets 1 point! (Total: 1)][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Alex#1 wins the round and gets 1 point! (Total: 1)][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: EliminationPayload[clientId=2, eliminated=true][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: EliminationPayload[clientId=2, eliminated=true][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: EliminationPayload[clientId=2, eliminated=true][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [💀 Bryan#2 has been eliminated!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [💀 Bryan#2 has been eliminated!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [💀 Bryan#2 has been eliminated!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: onRoundEnd() end
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: onSessionEnd() start
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Game Over: Alex#1 wins with 1 point(s)!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Game Over: Alex#1 wins with 1 point(s)!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [Game Over: Alex#1 wins with 1 point(s)!][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [📊 FINAL SCOREBOARD][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [📊 FINAL SCOREBOARD][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [📊 FINAL SCOREBOARD][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [1. Alex#1 - 1 point(s)][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [1. Alex#1 - 1 point(s)][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [1. Alex#1 - 1 point(s)][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [2. Bryan#2 - 0 point(s) [ELIMINATED]][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [2. Bryan#2 - 0 point(s) [ELIMINATED]][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [2. Bryan#2 - 0 point(s) [ELIMINATED]][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[MESSAGE] Client Id [-2] Message: [═══════════════════════════][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[RESET_READY] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[RESET_READY] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[RESET_READY] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[RESET_TURN] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[RESET_TURN] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[RESET_TURN] Client Id [0] Message: [null] isReady=false[0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: EliminationPayload[clientId=2, eliminated=false][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: EliminationPayload[clientId=2, eliminated=false][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: EliminationPayload[clientId=2, eliminated=false][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[PHASE] Client Id [0] Message: [READY][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[PHASE] Client Id [0] Message: [READY][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Sending to client: Payload[PHASE] Client Id [0] Message: [READY][0m
+Dec 11, 2025 10:03:24 PM Project.Common.LoggerUtil info
+INFO: onSessionEnd() end
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: IO exception while reading from client[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[ROOM_LEAVE] Client Id [3] Message: [game1] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_LEAVE] Client Id [3] Message: [game1] ClientName: [Chris] spectator=false[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;35mRoom[game1]: sending message to 2 recipients: Chris#3 disconnected[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 disconnected][0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Chris#3 disconnected][0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: Thread being disconnected by server[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[3]: ServerThread cleanup() start[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Closed Server-side Socket[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: ServerThread cleanup() end[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: Players in room: 2
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: Player Removed, remaining: 2
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: onTurnStart() start
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: IO exception while reading from client[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[ROOM_LEAVE] Client Id [1] Message: [game1] ClientName: [Alex] spectator=false[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;35mRoom[game1]: sending message to 1 recipients: Alex#1 disconnected[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[2]: Sending to client: Payload[MESSAGE] Client Id [-1] Message: [Alex#1 disconnected][0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: Thread being disconnected by server[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[1]: ServerThread cleanup() start[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: Closed Server-side Socket[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: [0;36mThread[-1]: ServerThread cleanup() end[0m
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: Players in room: 1
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: Player Removed, remaining: 1
+Dec 11, 2025 10:19:42 PM Project.Common.LoggerUtil info
+INFO: onTurnStart() start
