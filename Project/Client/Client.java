@@ -52,6 +52,7 @@ public enum Client {
     INSTANCE;
 
     {
+
         // statically initialize the client-side LoggerUtil
         LoggerUtil.LoggerConfig config = new LoggerUtil.LoggerConfig();
         config.setFileSizeLimit(2048 * 1024); // 2MB
@@ -347,6 +348,19 @@ public enum Client {
                 LoggerUtil.INSTANCE.warning(TextFX.colorize("Invalid room action", Color.RED));
                 break;
         }
+        sendToServer(payload);
+    }
+
+    /**
+     * Sends a request to join a room as a spectator
+     * 
+     * @param roomName the room to join
+     * @throws IOException
+     */
+    public void sendSpectatorJoin(String roomName) throws IOException {
+        Payload payload = new Payload();
+        payload.setMessage(roomName);
+        payload.setPayloadType(PayloadType.SPECTATOR_JOIN);
         sendToServer(payload);
     }
 
@@ -865,7 +879,8 @@ public enum Client {
                     Constants.DEFAULT_CLIENT_ID,
                     connectionPayload.getMessage(),
                     false,
-                    true));
+                    true,
+                    false));
             return;
         }
         switch (connectionPayload.getPayloadType()) {
@@ -876,6 +891,7 @@ public enum Client {
                     passToUICallback(IRoomEvents.class, e -> e.onRoomAction(
                             connectionPayload.getClientId(),
                             connectionPayload.getMessage(),
+                            false,
                             false,
                             false));
                     knownClients.remove(connectionPayload.getClientId());
@@ -898,13 +914,16 @@ public enum Client {
                     User user = new User();
                     user.setClientId(connectionPayload.getClientId());
                     user.setClientName(connectionPayload.getClientName());
+                    user.setSpectator(connectionPayload.isSpectator());
                     knownClients.put(connectionPayload.getClientId(), user);
                 }
+                final boolean isSpec = connectionPayload.isSpectator();
                 passToUICallback(IRoomEvents.class, e -> e.onRoomAction(
                         connectionPayload.getClientId(),
                         connectionPayload.getMessage(),
                         true,
-                        connectionPayload.getPayloadType() == PayloadType.SYNC_CLIENT));
+                        connectionPayload.getPayloadType() == PayloadType.SYNC_CLIENT,
+                        isSpec));
                 break;
             default:
                 error("Invalid payload type for processRoomAction");

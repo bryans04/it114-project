@@ -136,36 +136,40 @@ public class UserListView extends JPanel
         SwingUtilities.invokeLater(() -> {
             LoggerUtil.INSTANCE.info("Resorting user list");
             try {
-                // Remove all items except the glue
-                while (userListArea.getComponentCount() > 1) {
-                    userListArea.remove(0);
-                }
+                userListArea.removeAll();
 
-                // Sort users by points (descending) then by display name (ascending)
-                userItemsMap.values().stream()
+                java.util.List<UserListItem> sortedItems = userItemsMap.values().stream()
                         .sorted((a, b) -> {
-                            // Compare by points first (higher points first)
                             int pointCompare = Integer.compare(b.getPoints(), a.getPoints());
                             if (pointCompare != 0) {
                                 return pointCompare;
                             }
-                            // Then by name (A-Z)
                             return a.getDisplayName().compareTo(b.getDisplayName());
                         })
-                        .forEach(userItem -> {
-                            GridBagConstraints gbc = new GridBagConstraints();
-                            gbc.gridx = 0;
-                            gbc.gridy = userListArea.getComponentCount() - 1;
-                            gbc.weightx = 1;
-                            gbc.weighty = 0; // Don't stretch vertically
-                            gbc.anchor = GridBagConstraints.NORTHWEST; // Align to top-left
-                            gbc.fill = GridBagConstraints.HORIZONTAL; // Only fill horizontally
-                            gbc.insets = new Insets(0, 0, 5, 5);
-                            userListArea.add(userItem, gbc);
-                        });
+                        .collect(java.util.stream.Collectors.toList());
 
-                // Re-add the glue at the end
-                userListArea.add(Box.createVerticalGlue(), lastConstraints);
+                // Add items with sequential gridy values
+                int gridy = 0;
+                for (UserListItem userItem : sortedItems) {
+                    GridBagConstraints gbc = new GridBagConstraints();
+                    gbc.gridx = 0;
+                    gbc.gridy = gridy++;
+                    gbc.weightx = 1;
+                    gbc.weighty = 0; // Don't stretch vertically
+                    gbc.anchor = GridBagConstraints.NORTHWEST; // Align to top-left
+                    gbc.fill = GridBagConstraints.HORIZONTAL; // Only fill horizontally
+                    gbc.insets = new Insets(0, 0, 2, 5); // Reduced vertical spacing
+                    userListArea.add(userItem, gbc);
+                }
+
+                // Re-add the glue at the end to push items to top
+                GridBagConstraints glueGbc = new GridBagConstraints();
+                glueGbc.gridx = 0;
+                glueGbc.gridy = gridy;
+                glueGbc.weighty = 1.0;
+                glueGbc.fill = GridBagConstraints.VERTICAL;
+                userListArea.add(Box.createVerticalGlue(), glueGbc);
+
                 userListArea.revalidate();
                 userListArea.repaint();
             } catch (Exception e) {
@@ -197,7 +201,7 @@ public class UserListView extends JPanel
     }
 
     @Override
-    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet) {
+    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet, boolean isSpectator) {
         if (clientId == Constants.DEFAULT_CLIENT_ID) {
             clearUserList();
             return;
@@ -205,6 +209,12 @@ public class UserListView extends JPanel
         String displayName = Client.INSTANCE.getDisplayNameFromId(clientId);
         if (isJoin) {
             addUserListItem(clientId, displayName);
+            // Set spectator visual if applicable
+            if (isSpectator && userItemsMap.containsKey(clientId)) {
+                SwingUtilities.invokeLater(() -> {
+                    userItemsMap.get(clientId).setSpectator(true);
+                });
+            }
         } else {
             removeUserListItem(clientId);
         }
@@ -224,11 +234,20 @@ public class UserListView extends JPanel
     public void onTookTurn(long clientId, boolean didtakeCurn) {
         if (clientId == Constants.DEFAULT_CLIENT_ID) {
             SwingUtilities.invokeLater(() -> {
-                userItemsMap.values().forEach(u -> u.setTurn(false));// reset all
+                // Reset all turn statuses
+                userItemsMap.values().forEach(u -> u.setTurn(false));
+                // When turn status resets, everyone is pending their pick
+                if (!didtakeCurn) {
+                    userItemsMap.values().forEach(u -> u.setPendingPick(true));
+                }
             });
         } else if (userItemsMap.containsKey(clientId)) {
             SwingUtilities.invokeLater(() -> {
                 userItemsMap.get(clientId).setTurn(didtakeCurn);
+                // Clear pending status when player takes their turn
+                if (didtakeCurn) {
+                    userItemsMap.get(clientId).setPendingPick(false);
+                }
             });
         }
     }
@@ -285,8 +304,14 @@ public class UserListView extends JPanel
      */
     @Override
     public void onPlayerEliminated(long clientId, boolean eliminated) {
-        if (eliminated) {
-            markPlayerEliminated(clientId);
+        if (userItemsMap.containsKey(clientId)) {
+            SwingUtilities.invokeLater(() -> {
+                try {
+                    userItemsMap.get(clientId).setEliminated(eliminated);
+                } catch (Exception e) {
+                    LoggerUtil.INSTANCE.severe("Error updating elimination status", e);
+                }
+            });
         }
     }
 

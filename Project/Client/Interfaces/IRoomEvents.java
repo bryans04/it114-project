@@ -18,7 +18,11 @@ public interface IRoomEvents extends IClientEvents {
     /**
      * Receives the room name when the client is added to the room.
      *
-     * @param roomName The room name.
+     * @param clientId    The client ID.
+     * @param roomName    The room name.
+     * @param isJoin      True if joining, false if leaving.
+     * @param isQuiet     True if this is a sync/quiet event.
+     * @param isSpectator True if the client is a spectator.
      */
-    void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet);
+    void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet, boolean isSpectator);
 }

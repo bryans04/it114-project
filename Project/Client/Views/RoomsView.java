@@ -239,7 +239,7 @@ public class RoomsView extends JPanel implements IRoomEvents {
     }
 
     @Override
-    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet) {
+    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet, boolean isSpectator) {
         // unused
     }
 }

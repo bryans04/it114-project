@@ -85,7 +85,7 @@ public class ChatGameView extends JPanel implements IRoomEvents, IPhaseEvent {
     }
 
     @Override
-    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet) {
+    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet, boolean isSpectator) {
         if (isJoin && Constants.LOBBY.equals(roomName)) {
             showChatOnlyView();
         }
@@ -96,5 +96,14 @@ public class ChatGameView extends JPanel implements IRoomEvents, IPhaseEvent {
     public void onReceivePhase(Phase phase) {
         showGameView();
 
+    }
+
+    public void setSpectator(boolean spectator) {
+        if (chatView != null) {
+            chatView.setSpectator(spectator);
+        }
+        if (gameView != null) {
+            gameView.setSpectator(spectator);
+        }
     }
 }

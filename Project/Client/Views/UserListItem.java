@@ -24,6 +24,7 @@ public class UserListItem extends JPanel {
     private boolean isEliminated = false;
     private boolean isPendingPick = false;
     private boolean isAway = false;
+    private boolean isSpectator = false;
 
     /**
      * Constructor to create a UserListItem.
@@ -172,7 +173,10 @@ public class UserListItem extends JPanel {
      * Updates the status badge display based on current state
      */
     private void updateStatusBadge() {
-        if (isEliminated) {
+        if (isSpectator) {
+            statusBadge.setText("[SPECTATOR]");
+            statusBadge.setForeground(Color.BLUE);
+        } else if (isEliminated) {
             statusBadge.setText("[ELIMINATED]");
             statusBadge.setForeground(Color.RED);
         } else if (isAway) {
@@ -185,6 +189,30 @@ public class UserListItem extends JPanel {
             statusBadge.setText("");
         }
         repaint();
+    }
+
+    /**
+     * Marks this player as a spectator. Visual representation is blue italic.
+     */
+    public void setSpectator(boolean spectator) {
+        this.isSpectator = spectator;
+        updateStatusBadge();
+        if (spectator) {
+            textContainer.setForeground(Color.BLUE);
+            textContainer.setText("<html><i>" + displayName + "</i></html>");
+        } else {
+            textContainer.setForeground(Color.BLACK);
+            textContainer.setText(displayName);
+        }
+        revalidate();
+        repaint();
+    }
+
+    /**
+     * Returns whether this player is a spectator
+     */
+    public boolean isSpectator() {
+        return isSpectator;
     }
 
     /**

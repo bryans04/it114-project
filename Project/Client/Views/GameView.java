@@ -17,6 +17,7 @@ import Project.Common.Phase;
 public class GameView extends JPanel implements IPhaseEvent {
     private PlayView playView;
     private ReadyView readyView;
+    private GameEventsView gameEventsView;
     private CardLayout cardLayout;
     private static final String READY_PANEL = "READY";
     private static final String PLAY_PANEL = "PLAY";
@@ -36,7 +37,7 @@ public class GameView extends JPanel implements IPhaseEvent {
         playView = new PlayView(PLAY_PANEL);
         gameContainer.add(PLAY_PANEL, playView);
 
-        GameEventsView gameEventsView = new GameEventsView();
+        gameEventsView = new GameEventsView();
         JSplitPane splitPane = new JSplitPane(JSplitPane.VERTICAL_SPLIT, gameContainer, gameEventsView);
         splitPane.setResizeWeight(0.7);
 
@@ -72,6 +73,12 @@ public class GameView extends JPanel implements IPhaseEvent {
         // GameView can act as a manager and pass data to playView
         // Or playView can implement its own interfaces to receive changes
         playView.changePhase(phase);
+    }
+
+    public void setSpectator(boolean spectator) {
+        if (gameEventsView != null) {
+            gameEventsView.setSpectator(spectator);
+        }
     }
 
 }

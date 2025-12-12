@@ -118,11 +118,26 @@ public class GameRoom extends BaseGameRoom {
         gameStarted = true;
         changePhase(Phase.IN_PROGRESS);
         currentTurnClientId = Constants.DEFAULT_CLIENT_ID;
-        // Reset all player points for a new game session
+
+        clientsInRoom.values().forEach(p -> {
+            if (!p.isReady()) {
+                p.setSpectator(true);
+
+                Project.Common.ConnectionPayload cp = new Project.Common.ConnectionPayload();
+                cp.setClientId(p.getClientId());
+                cp.setClientName(p.getDisplayName());
+                cp.setSpectator(true);
+                cp.setPayloadType(Project.Common.PayloadType.SYNC_CLIENT);
+                clientsInRoom.values().forEach(client -> client.sendToClient(cp));
+
+                sendGameEvent(String.format("%s is now spectating", p.getDisplayName()));
+            }
+        });
+
         clientsInRoom.values().forEach(p -> p.setPoints(0));
         setTurnOrder();
         round = 0;
-        resetEliminationStatus(); // Clear any elimination status from previous game
+        resetEliminationStatus();
         LoggerUtil.INSTANCE.info("onSessionStart() end");
         onRoundStart();
     }
@@ -282,20 +297,20 @@ public class GameRoom extends BaseGameRoom {
                 if (result > 0) {
                     // Player 1 wins
                     wins.put(player1, wins.get(player1) + 1);
-                    battleMessage = String.format("⚔️  %s (%s) vs %s (%s) - %s wins!",
+                    battleMessage = String.format("%s (%s) vs %s (%s) - %s wins!",
                             player1.getDisplayName(), gameMode.getDisplay(choice1),
                             player2.getDisplayName(), gameMode.getDisplay(choice2),
                             player1.getDisplayName());
                 } else if (result < 0) {
                     // Player 2 wins
                     wins.put(player2, wins.get(player2) + 1);
-                    battleMessage = String.format("⚔️  %s (%s) vs %s (%s) - %s wins!",
+                    battleMessage = String.format("%s (%s) vs %s (%s) - %s wins!",
                             player1.getDisplayName(), gameMode.getDisplay(choice1),
                             player2.getDisplayName(), gameMode.getDisplay(choice2),
                             player2.getDisplayName());
                 } else {
                     // Tie
-                    battleMessage = String.format("⚔️  %s (%s) vs %s (%s) - Tie!",
+                    battleMessage = String.format("%s (%s) vs %s (%s) - Tie!",
                             player1.getDisplayName(), gameMode.getDisplay(choice1),
                             player2.getDisplayName(), gameMode.getDisplay(choice2));
                 }
@@ -315,7 +330,7 @@ public class GameRoom extends BaseGameRoom {
         for (ServerThread winner : roundWinners) {
             winner.changePoints(1);
             sendPlayerPoints(winner);
-            sendGameEvent(String.format("🏆 %s wins the round and gets 1 point! (Total: %d)",
+            sendGameEvent(String.format("%s wins the round and gets 1 point! (Total: %d)",
                     winner.getDisplayName(), winner.getPoints()));
         }
 

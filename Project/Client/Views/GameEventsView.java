@@ -50,6 +50,7 @@ public class GameEventsView extends JPanel
     private boolean cooldownEnabled = false;
     private String lastLocalChoice = null;
     private boolean isEliminated = false;
+    private boolean isSpectator = false;
     private final Map<String, JButton> choiceButtonMap = new HashMap<>();
     private JCheckBox awayCheckbox;
 
@@ -184,22 +185,23 @@ public class GameEventsView extends JPanel
      */
     private void onPickChoice(String choice) {
         try {
-            // Prevent eliminated players from picking
+            if (isSpectator) {
+                LoggerUtil.INSTANCE.warning("Cannot pick - player is spectator");
+                return;
+            }
+
             if (isEliminated) {
                 LoggerUtil.INSTANCE.warning("Cannot pick - player is eliminated");
-             
+                return;
+            }
 
-            
             LoggerUtil.INSTANCE.info("Player chose: " + choice.toUpperCase());
-            // Prevent sending the same pick if UI somehow allowed it while cooldown is
-            // enabled
             if (cooldownEnabled && lastLocalChoice != null && lastLocalChoice.equals(choice)) {
                 LoggerUtil.INSTANCE.warning("Choice on cooldown: " + choice);
                 return;
             }
 
             Client.INSTANCE.sendPick(choice);
-            // record last local choice so next round the UI can disable it
             lastLocalChoice = choice;
         } catch (IOException e) {
             LoggerUtil.INSTANCE.severe("Error sending pick", e);
@@ -253,6 +255,15 @@ public class GameEventsView extends JPanel
             // Regenerate buttons with current game mode when game starts
             regenerateButtons(currentGameMode);
         }
+        // Reset elimination state when returning to READY phase (new game starting)
+        if (phase == Phase.READY) {
+            isEliminated = false;
+            lastLocalChoice = null; // Clear cooldown state for new game
+            // Re-enable buttons for the new game
+            SwingUtilities.invokeLater(() -> {
+                choiceButtonMap.values().forEach(button -> button.setEnabled(true));
+            });
+        }
         buttonPanel.setVisible(gameActive);
         addText(String.format("--- Phase: %s ---", phase.name()));
     }
@@ -268,14 +279,8 @@ public class GameEventsView extends JPanel
 
     @Override
     public void onMessageReceive(long id, String message) {
-        if (id == Constants.GAME_EVENT_CHANNEL) {// using -2 as an internal channel for GameEvents
-            // Format battle log and game events
-            if (message.contains("vs") || message.contains("wins") || message.contains("eliminated")
-                    || message.contains("eliminated")) {
-                addText("⚔️  " + message);
-            } else {
-                addText(message);
-            }
+        if (id == Constants.GAME_EVENT_CHANNEL) {
+            addText(message);
         }
     }
 
@@ -344,6 +349,18 @@ public class GameEventsView extends JPanel
                     addText("You are back in the game!");
                 }
             });
+        }
+    }
+
+    public void setSpectator(boolean spectator) {
+        this.isSpectator = spectator;
+        if (spectator) {
+            for (JButton btn : choiceButtonMap.values()) {
+                btn.setEnabled(false);
+            }
+            if (awayCheckbox != null) {
+                awayCheckbox.setEnabled(false);
+            }
         }
     }
 }

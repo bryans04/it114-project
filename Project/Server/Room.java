@@ -285,6 +285,11 @@ public class Room implements AutoCloseable {
     }
 
     protected synchronized void handleMessage(ServerThread sender, String text) {
+        // Spectators cannot send messages
+        if (sender.isSpectator()) {
+            sender.sendMessage(Constants.DEFAULT_CLIENT_ID, "Spectators cannot send messages.");
+            return;
+        }
         relay(sender, text);
     }
 

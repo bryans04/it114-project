@@ -1,8 +1,9 @@
 package Project.Common;
 
 public enum GameMode {
-    RPS_3("rps3", new String[]{"r", "p", "s"}, new String[]{"🪨 Rock", "📄 Paper", "✂️ Scissors"}),
-    RPS_5("rps5", new String[]{"r", "p", "s", "l", "k"}, new String[]{"🪨 Rock", "📄 Paper", "✂️ Scissors", "🦎 Lizard", "🖖 Spock"});
+    RPS_3("rps3", new String[] { "r", "p", "s" }, new String[] { "Rock", "Paper", "Scissors" }),
+    RPS_5("rps5", new String[] { "r", "p", "s", "l", "k" },
+            new String[] { "Rock", "Paper", "Scissors", "Lizard", "Spock" });
 
     private final String mode;
     private final String[] choices;

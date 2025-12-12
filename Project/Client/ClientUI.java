@@ -216,11 +216,17 @@ public class ClientUI extends JFrame implements ICardControls, IConnectionEvents
     }
 
     @Override
-    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet) {
-        LoggerUtil.INSTANCE.fine(String.format("onRoomAction: clientId=%d, roomName=%s, isJoin=%b, isQuiet=%b",
-                clientId, roomName, isJoin, isQuiet));
+    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet, boolean isSpectator) {
+        LoggerUtil.INSTANCE
+                .fine(String.format("onRoomAction: clientId=%d, roomName=%s, isJoin=%b, isQuiet=%b, isSpectator=%b",
+                        clientId, roomName, isJoin, isQuiet, isSpectator));
         if (Client.INSTANCE.isMyClientId(clientId) && isJoin) {
             currentRoomLabel.setText(String.format("Room: %s", roomName));
+        }
+        if (Client.INSTANCE.isMyClientId(clientId) && isSpectator) {
+            if (chatGameView != null) {
+                chatGameView.setSpectator(true);
+            }
         }
     }
 
@@ -232,7 +238,7 @@ public class ClientUI extends JFrame implements ICardControls, IConnectionEvents
     @Override
     public void onReceivePhase(Phase phase) {
         LoggerUtil.INSTANCE.fine("Received phase: " + phase.name());
-        
+
         // When returning to READY phase, show the ready view and reset the ready button
         if (phase == Phase.READY) {
             readyView.resetReady();

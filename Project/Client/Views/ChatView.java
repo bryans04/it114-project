@@ -44,6 +44,9 @@ public class ChatView extends JPanel implements IMessageEvents, IConnectionEvent
     private JPanel chatArea = new JPanel(new GridBagLayout());
     private UserListView userListView;
     private final float CHAT_SPLIT_PERCENT = 0.7f;
+    private boolean isSpectator = false;
+    private JTextField messageInput;
+    private JButton sendButton;
 
     public ChatView(ICardControls controls) {
         super(new BorderLayout(10, 10));
@@ -205,7 +208,7 @@ public class ChatView extends JPanel implements IMessageEvents, IConnectionEvent
     }
 
     @Override
-    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet) {
+    public void onRoomAction(long clientId, String roomName, boolean isJoin, boolean isQuiet, boolean isSpectator) {
         if (clientId == Constants.DEFAULT_CLIENT_ID) {
             return;
         }
@@ -214,10 +217,12 @@ public class ChatView extends JPanel implements IMessageEvents, IConnectionEvent
             String displayName = Client.INSTANCE.getDisplayNameFromId(clientId);
             boolean isMe = Client.INSTANCE.isMyClientId(clientId);
             // Example 1: Client generated join/leave message (see Room.java for Example 2)
-            String message = String.format("<font color=blue>*%s %s the Room %s*</font>",
+            String spectatorSuffix = isSpectator && isJoin ? " as a spectator" : "";
+            String message = String.format("<font color=blue>*%s %s the Room %s%s*</font>",
                     /* 1st %s */ isMe ? "You" : displayName,
                     /* 2nd %s */ isJoin ? "joined" : "left",
-                    /* 3rd %s */ roomName == null ? "" : roomName); // added handling of null after the demo video
+                    /* 3rd %s */ roomName == null ? "" : roomName,
+                    /* 4th %s */ spectatorSuffix);
             addText(message);
         }
     }
@@ -225,5 +230,17 @@ public class ChatView extends JPanel implements IMessageEvents, IConnectionEvent
     @Override
     public void onReceiveRoomList(List<String> rooms, String message) {
         // unused
+    }
+
+    public void setSpectator(boolean spectator) {
+        this.isSpectator = spectator;
+        SwingUtilities.invokeLater(() -> {
+            if (messageInput != null) {
+                messageInput.setEnabled(!spectator);
+            }
+            if (sendButton != null) {
+                sendButton.setEnabled(!spectator);
+            }
+        });
     }
 }
